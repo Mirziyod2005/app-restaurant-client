@@ -1,0 +1,17 @@
+/*---------------------------- Footer Style ---------------------------*/
+.footer{
+  width: 100%;
+  height: 100px;
+  opacity: 0.6;
+  .container{
+    .row{
+      height: 100px;
+      .footer__copyright{
+        font-size: 18px;
+        @media (max-width: 360px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
